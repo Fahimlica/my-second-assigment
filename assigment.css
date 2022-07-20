@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------top banner style start-------*/
+
+.top-banner {
+    display: flex;
+    background: #161616;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+
+.headline {
+    color: white;
+    margin-left: 10px;
+    width: 150px;
+}
+
+.discription {
+    color: white;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.button-place {
+
+    padding: 10px 10px;
+    background-color: red;
+    border-radius: 10px;
+    width: 20%;
+    margin-top: 80px;
+    margin-left: 10px;
+
+}
+
+.link-button {
+    text-decoration: none;
+    color: #161616;
+}
+
+/*-------top banner style end-------*/
+.news-info {
+    display: flex;
+
+}
+
+.containers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 24px;
+    margin-left: 450px;
+    width: 24px;
+}
+
+.duration {
+    align-items: center;
+}
+
+
+.footer {
+    align-items: center;
+}
+
+.footer {
+    align-items: center;
+    padding-left: 50%;
+    display: flex;
+}
+
+footer h2 {
+    padding-left: 50%;
+    color: #161616;
+
+}
+
+footer p {
+    color: #161616;
+    display: flex;
+    padding-left: 50%;
+
+}
+
+/*------media quaries----------*/
+/*------media quaries mobile----------*/
+@media only screen and (max-width:688px) {
+
+
+    .top-banner {
+
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .discription {
+        width: 100%;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .containers {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    footer h2 {
+        padding-left: 100px;
+    }
+
+    footer p {
+        padding-left: 100px;
+    }
+
+
+}
+
+/*------------media quaries tab-----*/
+
+@media only screen and (min-width:689px) and (max-width:1180px) {
+    .top-banner {
+        margin-left: 5px;
+        width: 100%;
+    }
+
+    .containers {
+        margin-left: 5px;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    footer h2 {
+        padding-left: 100px;
+    }
+
+    footer p {
+        padding-left: 100px;
+    }
+}
