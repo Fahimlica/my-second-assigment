@@ -82,6 +82,63 @@
             display: flex;
 
         }
+
+        @media only screen and (max-width:688px) {
+
+
+            .top-banner {
+
+                grid-template-columns: repeat(1, 1fr);
+                flex-direction: column;
+                margin-left: 10px;
+                width: 100%;
+            }
+
+
+
+            .containers {
+                grid-template-columns: repeat(1, 1fr);
+                flex-direction: column;
+                margin-left: 10px;
+            }
+
+            nav {
+                margin-left: 1px;
+                padding: 0%;
+                align-items: flex-start;
+                margin-top: 0px;
+
+            }
+
+            footer h2 {
+                padding-left: 100px;
+            }
+
+            footer p {
+                padding-left: 100px;
+            }
+
+
+            @media only screen and (min-width:689px) and (max-width:1180px) {
+                .top-banner {
+                    margin-left: 5px;
+                    width: 100%;
+                }
+
+                .containers {
+                    margin-left: 5px;
+                    grid-template-columns: repeat(2, 1fr);
+
+                }
+
+                footer h2 {
+                    padding-left: 100px;
+                }
+
+                footer p {
+                    padding-left: 100px;
+                }
+            }
     </style>
 
 </head>
@@ -113,7 +170,7 @@
     <nav>
         <ul>
             <li><a href="assigment.html">Blog</a></li>
-            <li><a href="upcomming.html">Upcomming Matches</a></li>
+            <li><a href="upcomming.html">UpcommingMatches</a></li>
             <li><a href="menu.html">All Groups</a></li>
 
         </ul>
